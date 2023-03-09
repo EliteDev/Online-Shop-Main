@@ -1,0 +1,22 @@
+.footer {
+  color: white;
+  background-color: #171717;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.5rem 1rem;
+  > div {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
+    font-family: "Oxygen", sans-serif;
+    img {
+      width: 20%;
+      margin: auto;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+}

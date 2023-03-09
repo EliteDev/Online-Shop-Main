@@ -1,0 +1,18 @@
+.about {
+  padding: 2rem;
+  background-image: none;
+  background: url("../img/abus-bg.svg") fixed no-repeat center;
+  background-size: cover;
+  place-items: center;
+  
+  img {
+    width: 60%;
+  }
+  p {
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    margin:auto;
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "name": "shop-online-main",
+  "version": "1.0.0",
+  "description": "tienda de intrumentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliteDev/Online-Shop-Main.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliteDev/Online-Shop-Main/issues"
+  },
+  "homepage": "https://github.com/EliteDev/Online-Shop-Main#readme"
+}

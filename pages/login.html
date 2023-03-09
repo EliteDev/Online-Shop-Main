@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/index.css" />
-    <title>Sobre nosotros</title>
-    <meta name="description" content="Nuestra historia.">
-    <meta name="keywords" content="instrumentos, Tienda, Venta, Guitarras, Baterias, Bajos, Tencnología.">
+    <title>iniciar Sesion</title>
   </head>
   <body>
     <header class="header">
@@ -23,20 +21,30 @@
           <li>
             <a href="./services.html">Servicios</a>
           </li>
-          <li class="active">
+          <li>
             <a href="./about.html">Sobre nosotros</a>
           </li>
           <li>
-            <a href="../pages/login.html">
+            <a href="./login.html" class="active">
               <i class="fa-solid fa-user"></i>
             </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="hero about">
-    <img src="https://cdn.discordapp.com/attachments/974790714846240828/1077758377972748479/logo.png" alt="">
-    <p>Somos una empresa fundada en el 2007 en la ciudad de Mexicali, México, nos encargamos de la venta de intrumentos musicales y electrónicos para tu uso profesional o practicante.</p>
+    <main class="hero__login">
+      <form>
+        <i class="fa-solid fa-user"></i>
+        <label for="">
+          Nombre de usuario
+          <input type="mail" placeholder="Mateo, santiago, etc" />
+        </label>
+        <label for="">
+          Contraseña
+          <input type="password" placeholder="Contraseña" />
+        </label>
+        <button>Entrar</button>
+      </form>
     </main>
     <footer class="footer">
       <div>

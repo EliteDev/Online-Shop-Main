@@ -1,0 +1,17 @@
+$color-red: #ff0040;
+$color-black: #171717;
+$font-primary:"Montserrat", sans-serif;
+$font-secondary: "Oxygen", sans-serif;
+
+%button-primary {
+    color: white;
+    border-radius:.5rem;
+    padding:.5rem 1rem;
+    background-color: #8f0000;
+    border: 1px solid #171717;
+    transition: background 250ms;
+    &:hover{
+        cursor:pointer;
+        background-color: #171717;
+    }
+}

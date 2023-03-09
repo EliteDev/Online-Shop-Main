@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #171717;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top:0;
+  .active {
+    border-bottom: 1px solid red;
+  }
+  i{
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.25rem;
+  }
+  a {
+    color: white;
+    transition: color 150ms;
+    &:hover {
+    color: #c9c9c9;
+    }  
+  }
+  h1 {
+    transition: color 150ms;
+    font-size: 2rem;
+    &:hover {
+      color: #c9c9c9;
+      cursor: pointer;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      place-content: center;
+      gap: 2rem;
+      li {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+.active {
+    border-bottom: 1px solid #ff0000(255, 54, 54);
+  }
