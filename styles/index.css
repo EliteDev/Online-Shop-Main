@@ -120,7 +120,7 @@ input {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: url("https://cdn.discordapp.com/attachments/1006337021104640000/1083493595211903006/2020-10-22.png") fixed center;
+  background: url("https://cdn.discordapp.com/attachments/1006337021104640000/1083822326870704188/custom-shop.jpg") fixed center;
   background-size: cover;
   height: 100vh;
   place-content: center;
@@ -235,6 +235,13 @@ input {
 }
 .footer > div h5 {
   font-size: 1.5rem;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  cursor: pointer;
 }
 
 .about {
@@ -456,6 +463,28 @@ input {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 }
+/* .sgpro__hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    height: 50vh;
+    .sgpro__container{
+        display: flex;
+        align-content: center;
+        background-color:$color-black ;
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 30%;
+        }
+    }
+    .sgpro__text{
+        display: flex;
+        align-content: center;
+        color: white;
+        text-align: right;
+    }
+}    */
 @media screen and (max-width: 480px) {
   .header {
     display: flex;
